@@ -2,7 +2,8 @@ import requests, os, time
 from colorama import Fore, Style
 
 os.system("clear" or "cls")
-print("welcome to smsbomber null-programmer\n")
+print("smsbomber \n")
+# Тут список апи для их вызова и передачсси данных в запросе
 api_divar = 'https://api.divar.ir/v5/auth/authenticate'
 api_snapp = 'https://app.snapp.taxi/api/api-passenger-oauth/v2/otp'
 api_bazar = 'https://api.cafebazaar.ir/rest-v1/process/GetOtpTokenRequest'
